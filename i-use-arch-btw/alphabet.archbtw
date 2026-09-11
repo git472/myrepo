@@ -1,0 +1,39 @@
+; Example program that prints all 26 letters of the English alphabet.
+
+; The first byte of the working memory will store the next letter to print.
+; Initialize it to 65 (ASCII value of 'A').
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch
+
+i
+
+; The second byte of the working memory will serve as a loop counter: it will
+; store the amount of loop iterations left to perform. Initialize it to 26.
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch arch arch arch arch
+arch arch arch arch arch arch
+
+; Loops 26 times.
+the
+    ; Switch data pointer back to letter.
+    use
+    ; Print letter.
+    btw
+    ; Set next letter.
+    arch
+    ; Switch data pointer to loop counter.
+    i
+    ; Decrement loop counter.
+    linux
+way
+
+; Value pointed to by data pointer is now 0. Set it to 10 (ASCII value of '\n').
+arch arch arch arch arch arch arch arch arch arch
+
+; Print new line.
+btw
