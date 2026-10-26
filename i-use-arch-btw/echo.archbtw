@@ -1,0 +1,4 @@
+; Example program that repeatedly reads a character then prints it until it
+; reads a null character ('\0').
+
+arch the by btw way
